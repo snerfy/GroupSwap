@@ -14,6 +14,19 @@ BINDING_NAME_GROUPSWAP_TOGGLE = L.GroupSwapToggle
 function GroupSwap:OnInitialize()
 	local defaults = {
         bg = {r = 0, g = 0.2, b = 0, a = 0.5},
+        colors = {
+            ["Class"] = {
+                ["HUNTER"] = '|cff6B8E23',
+                ["WARLOCK"] = '|cff6A5ACD',
+                ["PRIEST"] = '|cffFFFFFF',
+                ["PALADIN"] = '|cffFFB6C1',
+                ["MAGE"] = '|cff87CEFA',
+                ["ROGUE"] = '|cffFFD700',
+                ["DRUID"] = '|cffFF8C00',
+                ["SHAMAN"] = '|cff0000FF',
+                ["WARRIOR"] = '|cffCD853F', 
+            }
+        }
 
 		version = CURRENT_VERSION,
     }
@@ -70,7 +83,7 @@ end
 function GroupSwap:HideFrame()
 	local frame = self.frame
 	if frame then
-			frame:Hide()
+        frame:Hide()
     end
 end
 
