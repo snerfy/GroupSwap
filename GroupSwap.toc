@@ -1,0 +1,12 @@
+## Interface: 20400
+## Title: GroupSwap 
+## Author: Snerf 
+## Notes: Display for automatically swapping groups 
+## SavedVariablesPerCharacter: GroupSwapSets
+## Version: 0.0.1 
+## OptionalDeps: Ace3
+embeds.xml
+localization.lua
+utilities.lua
+frame.lua
+GroupSwap.lua

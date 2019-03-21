@@ -1,0 +1,5 @@
+<Bindings>
+	<Binding name="GROUPSWAP_TOGGLE" description="BINDING_NAME_GROUPSWAP_TOGGLE" header="GROUPSWAP">
+		GroupSwap:ToggleGroupSwap()
+	</Binding>
+</Bindings>
